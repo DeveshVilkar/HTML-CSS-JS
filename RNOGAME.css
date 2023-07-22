@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+*{
+    background-color:black;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 10px;
+    text-decoration-color: darkblue;
+    font-weight: 400;
+    color:#C0C0C0	;
+}
+h4{
+    font-family:'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: dashed;
+    color: #31E1F7;
+    margin-top: 80px;
+}
+#userGuess{
+    width:200px;
+    height: 25PX;
+    margin-left: 510px;
+    box-shadow:2px 2px 30px #31E1F7 ;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+button{
+    margin-left:565px ;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: #C0C0C0	;
+    border-radius: 20px;
+}
+P{
+    width: 300px;
+    height: 50px;
+    margin-left:460px ;
+    margin-top: 20px;
+    color: #31E1F7;
+    text-align: center;
+}
