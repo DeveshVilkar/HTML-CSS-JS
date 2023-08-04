@@ -1,48 +1,57 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
 *{
     background-color:black;
+    color: white;
+    font-family: 'Lora', serif;
 }
 h1{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lora', serif;
     font-size: 40px;
     text-align: center;
     text-shadow: 1px 1px 10px;
     text-decoration-color: darkblue;
     font-weight: 400;
     color:#C0C0C0	;
+} 
+#form{
+    
+    width: 250px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-around;
+    align-items: center;
+    margin: auto;
+    margin-top:60px;
 }
-h4{
-    font-family:'Poppins', sans-serif;
-    font-size: 25px;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: dashed;
-    color: #31E1F7;
-    margin-top: 80px;
+#guessfeild{
+   
+    box-shadow: 0px 0px 8px 1px white;
 }
-#userGuess{
-    width:200px;
-    height: 25PX;
-    margin-left: 510px;
-    box-shadow:2px 2px 30px #31E1F7 ;
-    background-color: white;
-    border-radius: 10px;
+#subt{
+    width: 80px;
+    border:1px solid white;
+    color:black;
+    background-color: #39B5E0;
+    box-shadow: 0px 0px 10px aqua;
+    
+}
+.resultparas{
+    border: 1px solid black;
+    width: 300px;
+    margin:auto ;
     margin-top: 30px;
 }
-button{
-    margin-left:565px ;
-    margin-top: 20px;
-    width: 100px;
-    height: 30px;
-    background-color: #C0C0C0	;
-    border-radius: 20px;
-}
-P{
-    width: 300px;
-    height: 50px;
-    margin-left:460px ;
-    margin-top: 20px;
-    color: #31E1F7;
+#loworhi{
+    border: 1px solid black;
+    width: 100%;
+    height: 60px;
     text-align: center;
+}
+#start{
+    text-align: center;
+    text-shadow: 1px 1px 5px 2px black;
 }
